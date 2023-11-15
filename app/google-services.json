@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "939522411206",
+    "project_id": "straydog-4f817",
+    "storage_bucket": "straydog-4f817.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939522411206:android:5ccbb89d158ef8695c65c7",
+        "android_client_info": {
+          "package_name": "com.example.straydog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjhNrjkT9JrxlT15lpigalvu5JFnTL46s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/rlContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:elevation="5dp"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/main_menu_bottom"
+            app:labelVisibilityMode="unlabeled">
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="174dp"
+            android:layout_height="46dp"
+            android:layout_above="@+id/bottomNavigationView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="127dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginBottom="347dp"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:text="환영합니다. " />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_above="@+id/bottomNavigationView"
+            android:layout_marginBottom="629dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="멍냥대소동" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
